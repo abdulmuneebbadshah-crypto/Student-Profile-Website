@@ -1,0 +1,225 @@
+a/* ==============================
+   Element Selector
+   ============================== */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f5f9;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #1f4e79;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    font-size: 17px;
+}
+
+
+/* Navigation */
+nav {
+    background-color: #163a5c;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+/* Hover Effect */
+nav a:hover {
+    color: #ffd166;
+}
+
+
+/* ==============================
+   ID Selector
+   ============================== */
+
+#about {
+    background-color: white;
+    border: 1px solid #cccccc;
+
+    /* CSS Box Model */
+    margin: 25px auto;
+    padding: 25px;
+
+    width: 80%;
+}
+
+#about img {
+    border: 4px solid #1f4e79;
+    padding: 5px;
+    margin: 10px;
+}
+
+#education {
+    background-color: #ffffff;
+    margin: 25px auto;
+    padding: 25px;
+    width: 80%;
+}
+
+#subjects {
+    background-color: white;
+    margin: 25px auto;
+    padding: 25px;
+    width: 80%;
+}
+
+#contact {
+    background-color: white;
+    margin: 25px auto;
+    padding: 25px;
+    width: 80%;
+}
+
+
+/* ==============================
+   Class Selector
+   ============================== */
+
+.links {
+    background-color: #e8f1f8;
+    margin: 25px auto;
+    padding: 25px;
+    width: 80%;
+}
+
+.links a {
+    color: #1f4e79;
+    font-weight: bold;
+}
+
+.links a:hover {
+    color: #d35400;
+}
+
+
+/* Headings */
+h2 {
+    color: #1f4e79;
+    border-bottom: 2px solid #1f4e79;
+    padding-bottom: 8px;
+}
+
+h3 {
+    color: #2f6690;
+}
+
+
+/* Lists */
+ol, ul {
+    line-height: 1.8;
+}
+
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background-color: #1f4e79;
+    color: white;
+}
+
+th, td {
+    border: 1px solid #999999;
+    padding: 12px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+tr:hover {
+    background-color: #dcecf7;
+}
+
+
+/* ==============================
+   Form Styling
+   ============================== */
+
+form {
+    background-color: #f7f9fb;
+    border: 1px solid #cccccc;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+label {
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    display: block;
+    width: 95%;
+    padding: 10px;
+    margin: 8px 0 15px 0;
+    border: 1px solid #aaaaaa;
+    border-radius: 4px;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+
+/* Submit Button */
+button {
+    background-color: #1f4e79;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #163a5c;
+}
+
+
+/* Highlighted Text */
+mark {
+    background-color: #ffd166;
+    padding: 2px 5px;
+}
+
+
+/* Footer */
+footer {
+    background-color: #163a5c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
